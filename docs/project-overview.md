@@ -1,1 +1,215 @@
+# PetroVision — Project Overview
 
+## Project Title
+
+PetroVision: Petroleum Contamination Detection and Classification in Aquatic Environments Using Sensor Data and Computer Vision
+
+## Project Domain
+
+Artificial Intelligence and Machine Learning
+
+### Specialization
+
+Computer Vision and Deep Learning
+
+### Application Area
+
+Environmental Monitoring
+
+---
+
+## 1. Problem Statement
+
+Petroleum contamination in aquatic environments can affect water quality,
+aquatic ecosystems, and surrounding environments. Early identification of
+visible contamination and classification of contamination-related patterns
+can support monitoring and response.
+
+Conventional approaches may depend on laboratory analysis, specialized
+equipment, or dedicated sensing infrastructure.
+
+PetroVision investigates a software-based approach combining sensor-data
+machine learning and computer vision for petroleum contamination analysis
+in aquatic environments.
+
+---
+
+## 2. Project Objective
+
+The objective of PetroVision is to investigate computational methods for
+detecting and classifying petroleum contamination in aquatic environments
+using:
+
+1. Sensor-data machine learning
+2. Computer vision and deep learning
+3. Image segmentation
+4. Interactive visual analysis
+
+The project will evaluate these approaches experimentally rather than
+assuming that a particular model or method is superior.
+
+---
+
+## 3. 7th Semester Scope
+
+The 7th-semester implementation focuses on software and research.
+
+### Sensor-data ML
+
+- Investigation of sensor-based petroleum contamination classification
+- Implementation of relevant machine-learning algorithms
+- Model comparison
+- Robustness analysis
+- Performance evaluation
+
+### Computer Vision
+
+- RGB image analysis
+- CNN-based visual analysis
+- Image segmentation
+- Visible contamination localization
+- Image-based coverage estimation
+- Webcam-based demonstration
+
+### Application
+
+- Interactive Streamlit interface
+- Scientific analysis view
+- Demonstration view
+- Visualization of model outputs and measurements
+
+---
+
+## 4. 8th Semester Extension
+
+The future extension may investigate physical sensing and edge deployment,
+including:
+
+- ESP32-based sensing
+- Physical sensors
+- Real-world data collection
+- Sensor and visual information integration
+- Edge/embedded deployment
+- Hardware validation
+
+These components are outside the current 7th-semester implementation.
+
+---
+
+## 5. Research Direction
+
+PetroVision is inspired by existing research on petroleum contamination
+detection and classification using sensor-based machine learning and
+embedded systems.
+
+The project additionally investigates computer vision as a complementary
+source of visual information.
+
+The project will distinguish between:
+
+- Results reported by existing research
+- Results obtained from legitimate external datasets
+- Results obtained from PetroVision experiments
+- Synthetic data used only for testing or development
+- Demonstration-only visual effects
+
+No experimental result will be presented as scientifically valid unless
+it is supported by an actual experiment.
+
+---
+
+## 6. Computer Vision Scope
+
+The computer-vision component is intended to investigate visible
+petroleum-like contamination in images.
+
+The planned pipeline is:
+
+Image/Webcam
+→ Region of Interest
+→ CNN Segmentation
+→ Pixel Mask
+→ Visible Coverage Estimation
+→ Visualization
+
+The system will distinguish visual appearance from chemical identification.
+
+RGB computer vision alone will not be treated as a method for chemically
+identifying petrol, diesel, or other petroleum products.
+
+Image-based coverage represents visible image coverage and does not
+directly represent contamination volume, concentration, or thickness.
+
+---
+
+## 7. Planned System
+
+```text
+                    PetroVision
+                         |
+              +----------+----------+
+              |                     |
+              v                     v
+        Sensor Data             RGB Images
+              |                     |
+              v                     v
+       ML Classification       CNN / Segmentation
+              |                     |
+              +----------+----------+
+                         |
+                         v
+                  Analysis & Results
+                         |
+                         v
+                 Interactive Web App
+
+8. Evaluation
+
+The project will evaluate models using appropriate experimental metrics.
+
+Depending on the task, these may include:
+
+Accuracy
+Precision
+Recall
+F1-score
+Balanced accuracy
+Confusion matrix
+Cross-validation performance
+IoU
+Dice score
+Inference time
+Model size
+Robustness to perturbations
+
+Only metrics relevant to a particular experiment will be reported.
+
+9. Scientific Integrity
+
+PetroVision follows an evidence-based development approach.
+
+Source Result
+
+A result reported by an existing paper or dataset source.
+
+Our Experiment
+
+A result generated by PetroVision code using a legitimate dataset or
+experiment.
+
+Synthetic Test
+
+Artificially generated data used only for development, debugging, or
+algorithm testing.
+
+Demonstration Feature
+
+A visual or interactive feature intended for presentation and user
+interaction rather than scientific measurement.
+
+These categories will not be mixed.
+
+
+**This is documentation, not a commitment that every planned component must eventually work exactly this way.**
+
+If our research later shows that something needs to change, we'll update this document and record the reason rather than silently changing the project.
