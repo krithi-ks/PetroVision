@@ -42,3 +42,56 @@ No experimental accuracy, dataset, or performance result will be fabricated.
 ### Project Status
 
 7th Semester — Research and Software Development
+
+
+
+
+PetroVision/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── docs/
+│   ├── project-overview.md
+│   ├── project-plan.md
+│   ├── research-questions.md
+│   ├── base-paper-analysis.md
+│   ├── literature-review.md
+│   ├── dataset-log.md
+│   ├── methodology.md
+│   ├── experiments.md
+│   ├── results.md
+│   ├── limitations.md
+│   └── references.md
+│
+├── references/
+│   ├── papers/
+│   └── datasets/
+│
+├── data/
+│   └── README.md
+│
+├── notebooks/
+│   ├── sensor-ml/
+│   ├── computer-vision/
+│   └── experiments/
+│
+├── src/
+│   ├── sensor_ml/
+│   ├── vision/
+│   ├── preprocessing/
+│   └── evaluation/
+│
+├── models/
+│
+├── results/
+│   ├── figures/
+│   └── tables/
+│
+├── app/
+│
+└── reports/
+    ├── project-report/
+    ├── survey-paper/
+    └── conference-paper/
