@@ -3,3 +3,16 @@ __pycache__/
 *.pyc
 .env
 .ipynb_checkpoints/
+
+# Local datasets
+data/lados/*
+!data/lados/README.md
+
+# Model files
+models/*
+!models/.gitkeep
+
+# Experiment outputs
+results/*
+!results/figures/.gitkeep
+!results/tables/.gitkeep
