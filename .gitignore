@@ -10,6 +10,7 @@ data/lados/*
 
 # Model files
 models/*
+models/* .pt
 !models/.gitkeep
 
 # Experiment outputs
