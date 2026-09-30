@@ -9,10 +9,10 @@ data/lados/*
 !data/lados/README.md
 
 # Model files
-models/*
-models/* .pt
-!models/.gitkeep
+# models/*
+# models/* .pt
+# !models/.gitkeep
 
 # Experiment outputs
-results/tables/*
-!results/tables/.gitkeep
+# results/tables/*
+# !results/tables/.gitkeep
