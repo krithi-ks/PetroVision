@@ -47,7 +47,10 @@ class LADOSDataset(Dataset):
 
         self.root_dir = Path(root_dir)
         self.split = split
-        self.image_size = image_size
+        if isinstance(image_size, int):
+            self.image_size = (image_size, image_size)
+        else:
+            self.image_size = tuple(image_size)
         self.augment = augment and split == "train"
 
         if split not in {"train", "valid", "test"}:
