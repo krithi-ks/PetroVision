@@ -9,6 +9,8 @@ data/lados/*
 !data/lados/README.md
 
 # Model files
+models/cv_deeplab_001_best.pt
+models/cv_mask2former_001_best.pt
 # models/*
 # models/* .pt
 # !models/.gitkeep
